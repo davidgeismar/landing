@@ -1,0 +1,187 @@
+.img_size {
+  height: 60%;
+  width: 60%;
+}
+#ballon {
+  margin-top: 40px;
+}
+#mc_embed_signup {
+   clear:left;
+   font:14px Helvetica,Arial,sans-serif;
+ }
+
+#mailchimp-form {
+  color: black;
+
+}
+
+.color-para {
+  color: black;
+}
+#fake-navbar
+{
+  border-bottom: solid 1px rgb(1, 1, 51);
+  height: 60px;
+  img{
+
+      display: block;
+      margin: 0 auto;
+      height: 3em;
+      padding-top:  10px;
+    }
+}
+
+
+#banner
+{
+  //height: 500px;
+  background-image: image-url("img-banner-landingpage-ws.jpg");
+  background-position:center center;
+  background-size: cover;
+  }
+
+#margin-top-banner
+{
+  margin-top: 60px;
+  font-size: 2.5em;
+
+}
+
+#store-img
+{
+  img{
+    display: inline-block;
+  }
+}
+.store-img-size
+{
+  width:150px;
+  height: 60px;
+  display: block;
+  margin-top: 50px;
+}
+
+.size_img_app
+  {
+    width: 350px;
+    height: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+#btn-connexion
+{
+  width:280px;
+//  margin-left: 60px;
+  margin-top: 20px;
+}
+
+#app_description
+{
+
+// height: 500px;
+  background-color: rgb(229, 243, 252);;
+  padding-top: 50px;
+
+    h3{
+      color: rgb(1, 1, 51);
+  }
+}
+
+.fa
+{
+  margin-right: 25px;
+  // padding: 20px;
+  font-size: 2em;
+}
+
+#team_wefoot
+{
+  color: rgb(1, 1, 51);
+
+  p
+  {
+    text-align: center;
+  }
+}
+
+.founder_picture
+{
+  border-radius: 50%;
+  width:10em;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+
+}
+
+
+
+#message_form
+{
+  width: 30em;
+  height: 20em;
+}
+
+form
+{
+  padding: 10px;
+}
+
+.special-name
+{
+  color: $blue;
+}
+
+#restez {
+  padding-bottom: 40px;
+}
+
+#logo
+{
+  border-top: solid 1px rgb(1, 1, 51);
+    img{
+      display:block;
+      margin: 0 auto;
+      height: 70px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color:rgb(1, 1, 51);
+      margin-bottom: 25px;
+    }
+}
+
+.description-jeu-concours {
+  font-size: 25px;
+  padding-bottom: 80px;
+}
+.fadeIn {
+  opacity: 0;
+  animation: fadeIn 10s 0.5s ease forwards;
+  -webkit-animation: fadeIn 10s 0.5s ease forwards;
+  -moz-animation: fadeIn 10s 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  /* your animation code */
+
+}
+@-webkit-keyframes fadeIn {
+  /* your animation code */
+}
+@-moz-keyframes fadeIn {
+  /* your animation code */
+}
+
+.popover {
+   text-align: center;
+
+         /* Here you can design your popover divs */
+}
+
+.popover img {
+  width: 80%;
+}
