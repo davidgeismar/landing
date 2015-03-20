@@ -1,9 +1,73 @@
+.bottom {
+  z-index: 0;
+}
+.padding-img-caroussel {
+ margin-top: 40px;
+ margin-bottom: 40px;
+}
+
+.padding-left-carroussel {
+  padding-left: 100px;
+  padding-top: 60px;
+}
+
+.image {
+  position: absolute
+}
+
+.hide{
+     visibility: hidden;
+ }
+
+.top {
+     z-index: 2;
+
+ }
+
+ .top1 {
+    z-index:1;
+ }
+ .ball_size {
+  position: relative;
+  top: 193px;
+  left: 144px;
+  height: 35px;
+
+ }
+
+//   @keyframes disparition {
+//   0% {
+//   opacity:1;
+// }
+// 45% {
+// opacity:1;
+// }
+// 55% {
+// opacity:0;
+// }
+// 100% {
+// opacity:0;
+// }
+// }
+
+// .top{
+//   animation-name: disparition;
+//   animation-duration : 20s;
+// // -webkit-transition: all 2s ease-in-out;
+// //   -moz-transition: all 2s ease-in-out;
+// //   -ms-transition: all 2s ease-in-out;
+// //   -o-transition: all 2s ease-in-out;
+// //   transition: all 2s ease-in-out;
+
+// }
+
+
 .img_size {
-  height: 60%;
-  width: 60%;
+  width: 50%;
 }
 #ballon {
   margin-top: 40px;
+  height: 500px;
 }
 #mc_embed_signup {
    clear:left;
@@ -44,6 +108,7 @@
 {
   margin-top: 60px;
   font-size: 2.5em;
+  color:white;
 
 }
 
@@ -61,12 +126,24 @@
   margin-top: 50px;
 }
 
+.resize
+{
+  width: 60%
+}
+
 .size_img_app
   {
     width: 350px;
     height: 400px;
     margin-top: 40px;
     margin-bottom: 40px;
+  }
+
+  .fleche {
+    width: 20px;
+    height: 30px;
+    margin-left: 150px;
+    margin-top: 200px;
   }
 
 #btn-connexion
@@ -90,11 +167,16 @@
 
 .fa
 {
-  margin-right: 25px;
-  // padding: 20px;
+  margin: 15px;
+
   font-size: 2em;
 }
 
+#socialnetwork .fa {
+  margin: 25px;
+
+  font-size: 3em;
+}
 #team_wefoot
 {
   color: rgb(1, 1, 51);
@@ -140,6 +222,7 @@ form
 #logo
 {
   border-top: solid 1px rgb(1, 1, 51);
+  border-bottom: solid 1px rgb(1, 1, 51);
     img{
       display:block;
       margin: 0 auto;

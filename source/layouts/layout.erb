@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+
     <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
@@ -12,7 +13,7 @@
     <title><%= current_page.data.title || "The Middleman" %></title>
 
     <%= stylesheet_link_tag "all" %>
-    <%= javascript_include_tag  "all" %>
+
   </head>
 
   <body>
@@ -27,7 +28,7 @@
           <div class="col-xs-12">
             <h3 class="text-center" id="restez">Restez connecté </h3>
           </div>
-          <div class="col-xs-8 col-xs-offset-4">
+          <div class="col-xs-8 col-xs-offset-4 col-sm-5 col-sm-offset-4" id="socialnetwork">
            <a href="">
             <i class="fa fa-youtube-square"></i>
             </a>
@@ -45,5 +46,13 @@
       </div>
     </div>
     <script type="text/javascript" src="javascripts/all.js"></script>
+     <script src='/js/scrollReveal.min.js'></script>
+    <script>
+
+      window.sr = new scrollReveal();
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   </body>
 </html>
