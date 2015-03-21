@@ -1,3 +1,5 @@
+
+
 .bottom {
   z-index: 0;
 }
@@ -15,7 +17,7 @@
   position: absolute
 }
 
-.hide{
+#hide{
      visibility: hidden;
  }
 
@@ -128,7 +130,8 @@
 
 .resize
 {
-  width: 60%
+  width: 70%;
+  margin-top: 20px;
 }
 
 .size_img_app
@@ -156,9 +159,9 @@
 #app_description
 {
 
-// height: 500px;
+  height: 500px;
   background-color: rgb(229, 243, 252);;
-  padding-top: 50px;
+
 
     h3{
       color: rgb(1, 1, 51);
@@ -267,4 +270,14 @@ form
 
 .popover img {
   width: 80%;
+}
+
+#mce-MMERGE3 {
+  height: 400px;
+
+}
+
+.small {
+  width: 33% !important;
+  display: inline-block !important;
 }
