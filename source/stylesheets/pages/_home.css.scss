@@ -1,4 +1,50 @@
 
+.white_police {
+  color: white;
+}
+.title_questions {
+  color: rgb(15, 1, 66);
+  margin: 0px !important;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+#envoyer {
+  margin-top: 40px;
+  width: 200px;
+
+}
+.margeleft {
+  margin-left: 10px;
+}
+.littleform
+{
+  margin-top: 10px;
+  width: 295px
+}
+
+.marge {
+  margin:20px;
+}
+
+.contact-form {
+  background-color: rgb(123, 91, 229);
+}
+
+
+#question {
+  width: 600px;
+  height: 300px;
+}
+
+
+.margin_bottom {
+  margin-bottom: 50px;
+}
+
+.resize2 {
+  width: 120%;
+  margin-top: 40px;
+}
 
 .bottom {
   z-index: 0;
@@ -31,44 +77,19 @@
  }
  .ball_size {
   position: relative;
-  top: 193px;
-  left: 144px;
-  height: 35px;
+  top: 291px;
+  right: 37px;
+  height: 45px;
 
  }
 
-//   @keyframes disparition {
-//   0% {
-//   opacity:1;
-// }
-// 45% {
-// opacity:1;
-// }
-// 55% {
-// opacity:0;
-// }
-// 100% {
-// opacity:0;
-// }
-// }
-
-// .top{
-//   animation-name: disparition;
-//   animation-duration : 20s;
-// // -webkit-transition: all 2s ease-in-out;
-// //   -moz-transition: all 2s ease-in-out;
-// //   -ms-transition: all 2s ease-in-out;
-// //   -o-transition: all 2s ease-in-out;
-// //   transition: all 2s ease-in-out;
-
-// }
-
 
 .img_size {
-  width: 50%;
+  width: 80%;
+  margin-left: -130px;
 }
 #ballon {
-  margin-top: 40px;
+  margin-bottom: 100px;
   height: 500px;
 }
 #mc_embed_signup {
@@ -130,7 +151,7 @@
 
 .resize
 {
-  width: 70%;
+  width: 80%;
   margin-top: 20px;
 }
 
@@ -149,17 +170,12 @@
     margin-top: 200px;
   }
 
-#btn-connexion
-{
-  width:280px;
-//  margin-left: 60px;
-  margin-top: 20px;
-}
+
 
 #app_description
 {
 
-  height: 500px;
+  height: 550px;
   background-color: rgb(229, 243, 252);;
 
 
@@ -180,25 +196,7 @@
 
   font-size: 3em;
 }
-#team_wefoot
-{
-  color: rgb(1, 1, 51);
 
-  p
-  {
-    text-align: center;
-  }
-}
-
-.founder_picture
-{
-  border-radius: 50%;
-  width:10em;
-  margin-top: 40px;
-  margin-bottom: 40px;
-
-
-}
 
 
 
@@ -281,3 +279,19 @@ form
   width: 33% !important;
   display: inline-block !important;
 }
+
+@media screen and (max-width: 600px) {
+  .ball_size {
+    position: relative;
+    top: 305px;
+    right: -35px;
+    height: 45px;
+  }
+
+  .fa {
+    margin: 6px;
+    font-size: 1.6em;
+    margin-bottom: 70px;
+  }
+}
+
