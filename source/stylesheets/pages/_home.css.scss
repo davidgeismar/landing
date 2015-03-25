@@ -2,12 +2,14 @@
 .white_police {
   color: white;
 }
+
 .title_questions {
   color: rgb(15, 1, 66);
   margin: 0px !important;
   padding-top: 20px;
   padding-bottom: 40px;
 }
+
 #envoyer {
   margin-top: 40px;
   width: 200px;
@@ -22,12 +24,15 @@
   width: 295px
 }
 
+.margeoverall {
+ margin: 25px 50px 0px 50px;
+}
 .marge {
   margin:20px;
 }
 
 .contact-form {
-  background-color: rgb(123, 91, 229);
+  background-color: rgb(121, 145, 201);
 }
 
 
@@ -42,8 +47,14 @@
 }
 
 .resize2 {
-  width: 120%;
+  width: 140%;
+
+}
+
+.resize3 {
+  width: 100%;
   margin-top: 40px;
+  padding-bottom:40px;
 }
 
 .bottom {
@@ -67,25 +78,40 @@
      visibility: hidden;
  }
 
-.top {
-     z-index: 2;
-
+ #hide2{
+     visibility: hidden;
  }
 
- .top1 {
+ #hide3{
+     visibility: hidden;
+ }
+
+.top1 {
+     z-index: 2;
+ }
+
+ .top3 {
+     z-index: 4;
+ }
+
+.top2 {
+    z-index: 3;
+ }
+ .top {
     z-index:1;
  }
  .ball_size {
   position: relative;
-  top: 291px;
-  right: 37px;
-  height: 45px;
+   top: 248px;
+ left: 30px;
+ width: 45px;
 
- }
+  }
+
 
 
 .img_size {
-  width: 80%;
+  width: 315px;
   margin-left: -130px;
 }
 #ballon {
@@ -175,7 +201,7 @@
 #app_description
 {
 
-  height: 550px;
+
   background-color: rgb(229, 243, 252);;
 
 
@@ -240,7 +266,6 @@ form
 
 .description-jeu-concours {
   font-size: 25px;
-  padding-bottom: 80px;
 }
 .fadeIn {
   opacity: 0;
@@ -280,12 +305,9 @@ form
   display: inline-block !important;
 }
 
-@media screen and (max-width: 600px) {
-  .ball_size {
-    position: relative;
-    top: 305px;
-    right: -35px;
-    height: 45px;
+@media screen and (max-width: 768px) {
+   .ball_size {
+    margin-right: 65px;
   }
 
   .fa {
@@ -294,12 +316,25 @@ form
     margin-bottom: 70px;
   }
 
-  #question {
-    width:300px;
+    .img_size {
+    width: 315px;
+    margin: 0px;
+    display: block;
   }
+
+  h1 {
+    font-size: 0.8em;
+  }
+
+
 
   .margeleft {
     margin-left: 0px;
   }
+
+  .padding-left-carroussel {
+    padding-left: 0px;
+  }
 }
+
 
