@@ -6,11 +6,11 @@
   setTimeout(
     function() {
       document.getElementById("hide2").style.visibility = "visible";
-    }, 5000);
+    }, 7000);
 
   setTimeout(
     function() {
       document.getElementById("hide3").style.visibility = "visible";
-    }, 7000);
+    }, 11000);
 
 

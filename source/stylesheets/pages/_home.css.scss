@@ -1,3 +1,10 @@
+#christian {
+white-space: nowrap;
+}
+
+#affute {
+white-space: nowrap;
+}
 
 .white_police {
   color: white;
@@ -48,13 +55,21 @@
 
 .resize2 {
   width: 140%;
-
+  margin: 20px 0px 20px 0px;
 }
 
-.resize3 {
-  width: 100%;
-  margin-top: 40px;
-  padding-bottom:40px;
+.resize
+{
+  width: 90%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.resize3
+{
+  width: 90%;
+  margin-top: 65px;
+  margin-bottom: 65px;
 }
 
 .bottom {
@@ -175,11 +190,6 @@
   margin-top: 50px;
 }
 
-.resize
-{
-  width: 80%;
-  margin-top: 20px;
-}
 
 .size_img_app
   {
@@ -320,6 +330,9 @@ form
     width: 315px;
     margin: 0px;
     display: block;
+    margin: auto;
+    left: 0;
+    right: 0;
   }
 
   h1 {
