@@ -204,12 +204,15 @@ slideLeft
 .slideRight{
   animation-name: slideRight;
   -webkit-animation-name: slideRight;
+  -o-animation-name: slideRight;
 
-  animation-delay: 2s;
-  -webkit-animation-delay: 2s;
+  animation-delay: 3s;
+  -webkit-animation-delay: 3s;
+  -o-animation-delay: 3s;
 
   animation-duration: 1s;
   -webkit-animation-duration: 1s;
+   -o-animation-duration: 1s;
 
 -webkit-transition: all 500ms cubic-bezier(0.550, 0.055, 0.675, 0.190);
    -moz-transition: all 500ms cubic-bezier(0.550, 0.055, 0.675, 0.190);
@@ -247,17 +250,43 @@ slideLeft
 
 @-webkit-keyframes slideRight {
   0% {
+    -webkit-transform: translateX(0%);
+  }
+  50%{
+    -webkit-transform: translateX(158%);
+  }
+  65%{
+    -webkit-transform: translateX(146%);
+  }
+  80%{
+    -webkit-transform: translateX(154%);
+  }
+  95%{
+    -webkit-transform: translateX(148%);
+  }
+
+  100% {
+    -webkit-transform: translateX(150%);
+  }
+}
+
+@-o-keyframes slideRight {
+  0% {
     transform: translateX(0%);
   }
-  // 65%{
-  //   transform: translateX(96%);
-  // }
-  // 80%{
-  //   transform: translateX(104%);
-  // }
-  // 95%{
-  //   transform: translateX(98%);
-  // }
+  50%{
+    transform: translateX(158%);
+  }
+  65%{
+    transform: translateX(146%);
+  }
+  80%{
+    transform: translateX(154%);
+  }
+  95%{
+    transform: translateX(148%);
+  }
+
   100% {
     transform: translateX(150%);
   }

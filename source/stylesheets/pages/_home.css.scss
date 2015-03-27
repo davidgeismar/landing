@@ -1,3 +1,5 @@
+
+
 #christian {
 white-space: nowrap;
 }
@@ -20,13 +22,20 @@ white-space: nowrap;
 #envoyer {
   margin-top: 40px;
   width: 200px;
+}
 
+button {
+  border-radius: 5px;
+  color:white;
+  background-color: rgb(10, 18, 155);
+  border: black 1px;
 }
 .margeleft {
   margin-left: 10px;
 }
 .littleform
 {
+  border-radius: 5px;
   margin-top: 10px;
   width: 295px
 }
@@ -101,6 +110,10 @@ white-space: nowrap;
      visibility: hidden;
  }
 
+ #hide4{
+  visibility: hidden;
+ }
+
 .top1 {
      z-index: 2;
  }
@@ -112,6 +125,11 @@ white-space: nowrap;
 .top2 {
     z-index: 3;
  }
+
+ .top4 {
+    z-index: 5;
+ }
+
  .top {
     z-index:1;
  }
@@ -277,23 +295,6 @@ form
 .description-jeu-concours {
   font-size: 25px;
 }
-.fadeIn {
-  opacity: 0;
-  animation: fadeIn 10s 0.5s ease forwards;
-  -webkit-animation: fadeIn 10s 0.5s ease forwards;
-  -moz-animation: fadeIn 10s 0.5s ease forwards;
-}
-
-@keyframes fadeIn {
-  /* your animation code */
-
-}
-@-webkit-keyframes fadeIn {
-  /* your animation code */
-}
-@-moz-keyframes fadeIn {
-  /* your animation code */
-}
 
 .popover {
    text-align: center;
@@ -350,4 +351,18 @@ form
   }
 }
 
+.carousel-inner {
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+}
+
+.carousel .next {
+  top: 40px;
+  padding-left: 1500px;
+}
+
+.carousel .prev {
+  top: 40px;
+  padding-left: 1500px;
+}
 
