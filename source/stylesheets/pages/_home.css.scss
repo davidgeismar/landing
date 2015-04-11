@@ -1,4 +1,18 @@
+#WF-description{
+  font-size: 0.5em;
+  font-family: 'Ubuntu 400', sans-serif;
+}
 
+.height-img {
+  height: 30px;
+  margin: 15px;
+}
+
+.opacity {
+  background-color:  rgba(255, 255, 255, 0.5);
+  height:100%;
+
+}
 
 #christian {
 white-space: nowrap;
@@ -15,19 +29,19 @@ white-space: nowrap;
 .title_questions {
   color: rgb(15, 1, 66);
   margin: 0px !important;
-  padding-top: 20px;
+  padding-top: 100px;
   padding-bottom: 40px;
 }
 
 #envoyer {
   margin-top: 40px;
-  width: 200px;
+
 }
 
 button {
   border-radius: 5px;
-  color:white;
-  background-color: rgb(10, 18, 155);
+  color: rgb(15, 1, 66);
+  background-color: #7891C7;
   border: black 1px;
 }
 .margeleft {
@@ -40,15 +54,20 @@ button {
   width: 295px
 }
 
+.margeoveralltitle{
+
+  margin-top: 120px;
+}
 .margeoverall {
- margin: 25px 50px 0px 50px;
+ margin: 50px 50px 0px 50px;
 }
 .marge {
   margin:20px;
 }
 
 .contact-form {
-  background-color: rgb(121, 145, 201);
+  background-color: #7891C7;
+  height: 400px;
 }
 
 
@@ -57,9 +76,14 @@ button {
   height: 300px;
 }
 
+.height-cta {
+  height: 20px;
+}
 
 .margin_bottom {
   margin-bottom: 50px;
+  font-size: 0.8em;
+  font-family: 'Ubuntu 400', sans-serif;
 }
 
 .resize2 {
@@ -161,9 +185,7 @@ button {
 
 }
 
-.color-para {
-  color: black;
-}
+
 #fake-navbar
 {
   border-bottom: solid 1px rgb(1, 1, 51);
@@ -181,8 +203,8 @@ button {
 #banner
 {
   //height: 500px;
-  background-image: image-url("img-banner-landingpage-ws.jpg");
-  background-position:center center;
+  background-image: image-url("stadeimg.jpg");
+  background-position: 0% 100%;
   background-size: cover;
   }
 
@@ -224,17 +246,21 @@ button {
     margin-top: 200px;
   }
 
-
+.height-fleche {
+  height: 50px;
+  margin-top: 280px;
+}
 
 #app_description
 {
 
 
-  background-color: rgb(229, 243, 252);;
-
+  background-color: rgb(35, 136, 251);
+  color: white;
 
     h3{
       color: rgb(1, 1, 51);
+      font-size: 20px;
   }
 }
 
@@ -276,13 +302,14 @@ form
 
 #logo
 {
+  height: 300px;
   border-top: solid 1px rgb(1, 1, 51);
   border-bottom: solid 1px rgb(1, 1, 51);
     img{
       display:block;
       margin: 0 auto;
-      height: 70px;
-      margin-top: 30px;
+      height: 100px;
+      margin-top: 90px;
       margin-bottom: 10px;
     }
 
@@ -354,15 +381,16 @@ form
 .carousel-inner {
   -webkit-transform-style: preserve-3d;
   -webkit-backface-visibility: hidden;
+  height: 600px;
 }
 
-.carousel .next {
-  top: 40px;
-  padding-left: 1500px;
-}
 
-.carousel .prev {
-  top: 40px;
-  padding-left: 1500px;
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+
+}
+.carousel-control {
+  opacity: 1;
+  text-shadow: none;
 }
 
