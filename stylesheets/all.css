@@ -9228,106 +9228,107 @@ button {
 
 /* line 182, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
 #margin-top-banner {
+  margin-left: 60px;
   margin-top: 60px;
   font-size: 2.5em;
   color: white; }
 
-/* line 191, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
+/* line 192, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
 .fleche {
   width: 20px;
   height: 30px;
   margin-left: 150px;
   margin-top: 200px; }
 
-/* line 198, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
+/* line 199, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
 .height-fleche {
   height: 50px;
   margin-top: 280px; }
 
-/* line 203, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
+/* line 204, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
 #app_description {
   background-color: #2388fb;
   color: white; }
-  /* line 210, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
+  /* line 211, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
   #app_description h3 {
     color: #010133;
     font-size: 20px; }
 
-/* line 216, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
+/* line 217, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
 .fa {
   margin: 15px;
   font-size: 2em; }
 
-/* line 223, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
+/* line 224, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
 #socialnetwork .fa {
   margin: 15px;
   font-size: 3em; }
 
-/* line 232, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
+/* line 233, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
 #message_form {
   width: 30em;
   height: 20em; }
 
-/* line 238, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
+/* line 239, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
 form {
   padding: 10px; }
 
-/* line 243, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
+/* line 244, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
 .special-name {
   color: #469AE0; }
 
-/* line 248, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
+/* line 249, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
 #restez {
   padding-bottom: 40px; }
 
-/* line 252, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
+/* line 253, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
 #logo {
   height: 300px;
   border-top: solid 1px #010133;
   border-bottom: solid 1px #010133; }
-  /* line 257, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
+  /* line 258, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
   #logo img {
     display: block;
     margin: 0 auto;
     height: 100px;
     margin-top: 90px;
     margin-bottom: 10px; }
-  /* line 265, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
+  /* line 266, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
   #logo p {
     color: #010133;
     margin-bottom: 25px; }
 
-/* line 272, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
+/* line 273, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
 #mce-MMERGE3 {
   height: 400px; }
 
 @media screen and (max-width: 768px) {
-  /* line 281, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
+  /* line 282, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
   .resize3 {
     margin-top: 180px; }
 
-  /* line 285, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
+  /* line 286, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
   .resize2 {
     margin-top: 150px; }
 
-  /* line 289, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
+  /* line 290, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
   .resize {
     margin-top: 160px; }
 
-  /* line 293, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
+  /* line 294, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
   h1 {
     font-size: 0.8em; }
 
-  /* line 297, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
+  /* line 298, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
   .height-img {
     height: 30px;
     margin: 8px; }
 
-  /* line 302, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
+  /* line 303, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
   .margeleft {
     margin-left: 0px; }
 
-  /* line 306, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
+  /* line 307, /Users/davidgeismar/Desktop/landing/source/stylesheets/pages/_home.css.scss */
   .padding-left-carroussel {
     padding-left: 0px; } }
 /*
